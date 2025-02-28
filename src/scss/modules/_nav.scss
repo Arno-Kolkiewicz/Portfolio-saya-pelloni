@@ -1,0 +1,46 @@
+:root {
+    --nav-bg-color: #000000;
+    --nav-font-color: var(--color-primary-font);
+    --nav-font-size: 1.5rem;
+    --nav-padding: 4rem;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: var(--nav-padding);
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.burger-menu .burger {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.burger-menu .burger div {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: var(--nav-font-color);
+    border-radius: 10px;
+}
+
+.burger-menu .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.burger-menu .visible {
+    display: flex;
+}
+
+.burger-menu .btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--nav-font-color);
+    border-radius: 10px;
+}

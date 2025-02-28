@@ -1,0 +1,40 @@
+:root {
+    --footer-bg-color: #000000;
+    --footer-font-color: var(--color-primary-font);
+    --footer-font-size: 1.5rem;
+    --footer-padding: 4rem;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: var(--footer-padding);
+    padding-bottom: 0;
+    text-align: center;
+}
+
+footer .title {
+    font-size: 3rem;
+    color: var(--color-primary-font);
+    text-align: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+footer .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}

@@ -1,0 +1,15 @@
+:root {
+    --page-bg-color: #000000;
+    --page-font-color: var(--color-primary-font);
+    --page-font-size: 1.5rem;
+    --page-padding: 4rem;
+}
+
+body {
+    background-color: var(--page-bg-color);
+    color: var(--page-font-color);
+    font-size: var(--page-font-size);
+    padding: var(--page-padding);
+    padding-bottom: 0;
+    text-align: center;
+}
